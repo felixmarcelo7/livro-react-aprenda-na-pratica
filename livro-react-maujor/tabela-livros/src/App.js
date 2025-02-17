@@ -1,9 +1,15 @@
+import React from 'react';
+import TabelaHead from './components/TabelaHead';
+import TabelaBody from './components/TabelaBody';
+import TabelaFoot from './components/TabelaFoot';
 
 function App() {
   return (
-    <div>
-      <h1>Tabela Livros</h1>
-    </div>
+    <table className='tabela'>
+      <TabelaHead />
+      <TabelaBody />
+      <TabelaFoot />
+    </table>
   );
 }
 
